@@ -1,0 +1,17 @@
+{% include 'header' %}
+
+// Frameworks
+@import Foundation;
+#import <ViperMcFlurry/ViperMcFlurry.h>
+
+// Protocols
+@protocol {{ prefix }}{{ module_info.name }}ModuleInput <RamblerViperModuleInput>
+
+/**
+ @author {{ developer.name }}
+
+ Method initialized start configuration of current module
+ */
+- (void) configureModule;
+
+@end

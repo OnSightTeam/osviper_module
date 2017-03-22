@@ -1,0 +1,23 @@
+{% include 'header' %}
+
+#import "{{ prefix }}{{ module_info.name }}Assembly.h"
+
+// Classes
+@class {{ prefix }}{{ module_info.name }}ViewController;
+@class {{ prefix }}{{ module_info.name }}Interactor;
+@class {{ prefix }}{{ module_info.name }}Presenter;
+@class {{ prefix }}{{ module_info.name }}Router;
+
+/**
+ @author {{ developer.name }}
+
+ Extension, which made private fabric methods is opened for testing. 
+ */
+@interface {{ prefix }}{{ module_info.name }}Assembly ()
+
+- ({{ prefix }}{{ module_info.name }}ViewController*) view{{ module_info.name }};
+- ({{ prefix }}{{ module_info.name }}Presenter*) presenter{{ module_info.name }};
+- ({{ prefix }}{{ module_info.name }}Interactor*) interactor{{ module_info.name }};
+- ({{ prefix }}{{ module_info.name }}Router*) router{{ module_info.name }};
+
+@end

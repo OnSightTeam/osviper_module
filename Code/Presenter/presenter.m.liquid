@@ -1,0 +1,32 @@
+{% include 'header' %}
+
+#import "{{ prefix }}{{ module_info.name }}Presenter.h"
+
+// Classes
+#import "{{ prefix }}{{ module_info.name }}ViewInput.h"
+#import "{{ prefix }}{{ module_info.name }}InteractorInput.h"
+#import "{{ prefix }}{{ module_info.name }}RouterInput.h"
+
+@implementation {{ prefix }}{{ module_info.name }}Presenter
+
+
+#pragma mark - Methods {{ prefix }}{{ module_info.name }}ModuleInput -
+
+- (void) configureModule 
+{
+	// Starting configuration of the module, which dependent to the view state
+}
+
+
+#pragma mark - Methods {{ prefix }}{{ module_info.name }}ViewOutput -
+
+- (void) didTriggerViewReadyEvent 
+{
+	[self.view setupInitialState];
+}
+
+
+#pragma mark - Methods {{ prefix }}{{ module_info.name }}InteractorOutput -
+
+
+@end

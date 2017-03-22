@@ -1,0 +1,16 @@
+{% include 'header' %}
+
+// Frameworks
+@import Foundation;
+
+// Protocols
+@protocol {{ prefix }}{{ module_info.name }}ViewOutput <NSObject>
+
+/**
+ @author {{ developer.name }}
+ 
+ Method which inform presenter, that view is ready for a work
+ */
+- (void) didTriggerViewReadyEvent;
+
+@end

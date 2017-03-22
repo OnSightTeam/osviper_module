@@ -1,0 +1,16 @@
+{% include 'header' %}
+
+// Frameworks
+@import Foundation;
+
+// Protocols
+@protocol {{ prefix }}{{ module_info.name }}ViewInput <NSObject>
+
+/**
+ @author {{ developer.name }}
+
+ Method for setup initial state of view
+ */
+- (void) setupInitialState;
+
+@end
