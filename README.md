@@ -7,6 +7,11 @@ OnSight team use this viper template for generating modules on Viper architectur
 ----
 ### Generating Rambafile
 
+- Open **Terminal** app inside `pod` project folder: 
+    - `generamba setup`
+
+**The list of questions for installation**
+
 - The company name which will be used in the headers: 
     - `Client company name`
 
