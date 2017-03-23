@@ -6,9 +6,10 @@ OnSight team use this viper template for generating modules on Viper architectur
 
 ### Creating Templates
 
-- Open file `Rambafile` generated file after setup Generamba for project
 
-- Add template to the `templates` list at the bottom of the document: 
+- Open file **`Rambafile`** generated file after setup Generamba for project
+
+- Add template to the **`templates`** list at the bottom of the document: 
        - `- {name: osviper_module, git: 'https://bitbucket.org/onsightukraine/osviper_module’}`
 
 - Run command:
