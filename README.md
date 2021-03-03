@@ -3,6 +3,7 @@
 Viper Module Template for [Generamba](https://github.com/rambler-digital-solutions/Generamba) code generator inspired on [Ramber Viper Controller templates](https://github.com/rambler-digital-solutions/generamba-catalog).
 
 Template powered by OnSight Team in 2017.
+
 OnSight team use this viper template for generating modules on Viper architecture with UIViewController playing as a View.
 
 ----
